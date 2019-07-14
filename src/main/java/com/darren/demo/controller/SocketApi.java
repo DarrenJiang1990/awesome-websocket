@@ -48,7 +48,7 @@ public class SocketApi {
     *  客户端个性化订阅自己的实时订单,send路径(/socket/user/order/+{userId}),根据配置类，subscribe路径(/socket/user/+${userId}+/order/)
     * @param userId
     * @return void
-    * @author Jiangdr
+    * @author darren
     * @date 2019-07-14 18:17
     */
     @MessageMapping("/order/{userId}")
